@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>このホームページについて</title>
+	<link rel="stylesheet" href="aboutpage.css">
+	<link rel="stylesheet" href="hover.css">
+	<script type="text/javasctipt" src="js/jquery-1.11.2.min.js"></script>
+	<script>
+	$(window).on('scroll load',function(e) {
+		var header = $('header').height();
+		var scrollnow = $(window).scrollTop();
+		var scrollblur = (header+10*scrollnow)/header-1;
+		var blur = Math.floor(scrollblur);
+		$('h2').text( blur+'PX' );
+		$('header').css('-webkit-filter','blur('+blur+'px)');
+		$('header').css('filter','blur('+blur+'px)');
+	});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<a href="#"><img src="images/logo.png" height="40px"alt="ロゴ"></a>
+		<ul id="dropmenu">
+			<li><a href="top.html">top</a></li>
+			<li><a href="#">about</a>
+				<ul>
+					<li><a href="aboutpage.html">site</a></li>
+					<li><a href="sweden.html">sweden</a></li>
+					<li><a href="denmark.html">denmark</a></li>
+					<li><a href="finland.html">finland</a></li>
+					<li><a href="norwey.html">norwey</a></li>
+				</ul>
+			</li>
+			<li><a href="design.html">design</a></li>
+		</ul>
+	</div>
+	<!--ここまでヘッダー-->
+	<header></header>
+	<div class="div">
+	</div>
+	<div class="main"></div>
+	
+
+	<div class="content1">
+		
+		<ul>
+		<li><img src="images/abouttext.png"></li>
+		<li><h2>寒くても、あたたかい</h2></li>
+		<li><p>北欧に行きたい、雰囲気が好き。でも実際よく知らない。
+デザインの視点から北欧４ヵ国を見比べて、北欧を知ろうというためのサイト
+情報を集めるだけのサイトなので、実際に行くために必要なことは何も書いていない。</p></li>
+	</ul>
+
+	</div>
+	<div class="content1">
+		<ul>
+		<li><img src="images/howtouse.png"></li>
+		<li><p>少しでも北欧に興味を持ってもらえるような、情報を提供するので、ゆっくり楽しんでほしい。
+見て触れて楽しんでほしい。うごきがたくさんあるサイトができればいいな、と思っている。</p></li>
+	</ul>
+	</div>
+	<div class="content1">
+	<ul>
+		<li><img src="images/let'sgo.png"></li>
+		<li><p>本当に行きたくなったらここから</p></li>
+		<li><a href="http://www.jtb.co.jp/kaigai/europe/north_europe/" ><img src="images/jtb.png"id="jtb"><a></li>
+	</ul>
+	</div>
+
+
+	<!--ここまでコンテンツ-->
+
+	<div id="both"></div>
+	<div id="foot">
+		<footer id="footer">
+			<div class="ue"></div>
+			<img class="sita"src="images/footer.png" >
+		</footer>
+	</div>
+
+</body>
+</html>

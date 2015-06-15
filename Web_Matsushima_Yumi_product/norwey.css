@@ -1,0 +1,155 @@
+
+html,body {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ margin:0 auto;
+}
+
+header {
+ position: relative;
+ width: 100%;
+ height: 60%;
+ background: url(images/nor/norwey.png);
+ background-position: center center;
+ background-attachment: fixed;
+ filter: blur(0px);
+ background-size:100%;
+ z-index:-1;
+}
+
+.main {
+ position: relative;
+ background: #323CFC;
+ width: 100%;
+ height: 5%;
+ text-align: center;
+}
+
+.div1{
+position: absolute;
+ background-color: white;
+ top:0;
+ left: 0;
+ width:100%;
+ height:120px;
+ background: url(mono.png);
+}
+
+.div1 img{
+	margin:65px 0 0 10%;
+}
+
+.div {
+ position: absolute;
+ background: none;
+ top: 0;
+ left: 0;
+}
+
+
+/*ここからコンテンツ*/
+
+#inner{
+	width:100%;
+	height:120%;
+	position:relative;
+	background: url(mono.png);
+}
+
+.content1{
+	width:50%;
+	height:auto;
+	font-size: 12px;
+	margin-top:10px;
+	padding:0;
+	float:left;
+	margin-left:8%;
+}
+
+.content1 img{
+	margin:30px 0px 0px 80px;
+}
+
+.content1 p {
+	
+	display:inline-block;
+	width:90%;
+	margin-top: 0;	
+}
+
+.content1 h2 {
+	border-left: 5px solid #323CFC;
+	margin-bottom: 20px;
+	padding-left:5px;
+}
+
+.content1 ul{
+	list-style: none;
+	margin-bottom: 20px;
+	width:100%;
+	border-bottom:solid 2px #C6C6C6;
+}
+
+.content1 a{
+	width:30px;
+}
+
+/*ここまでメインコンテンツ*/
+
+.content2{
+	width:40%;
+	height:100%;
+	float:left;
+	text-decoration: none;
+	text-align: center;
+}
+
+.content2 ul{
+	list-style: none;
+	text-align: center;
+	width:50%;
+	margin:0 auto;
+
+}
+
+.content2 img{
+	width:150px;
+	margin-top:10px;
+	margin-bottom:0;
+	border:solid 5px #C6C6C6;
+}
+.content2 li{
+	width:150px;
+	margin-top:10px;
+	margin-bottom:0;
+
+}
+.content2 a{
+
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+.content2 p{
+	display:inline-block;
+	text-align: center;
+	margin-top: 0px;
+	color:#000;
+}
+.content2 li:hover{
+	opacity:0.8;
+	background:none;
+	color:#545656;
+}
+
+.content2 h2{
+	width:36px;
+	font-size: 18px;
+	border-left: solid 5px #323CFC;
+	margin-left:30%;
+	margin-top: 30px;
+
+}
+/*ここまでコンテンツ*/

@@ -1,0 +1,78 @@
+html,body {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#finmap{
+  position:absolute;
+  z-index: -1; 
+  display: none;
+}
+#denmap{
+  position:absolute;
+  z-index: -1; 
+  display: none;
+}
+#swemap{
+  position:absolute;
+  z-index: -1; 
+  display: none;
+}
+#normap{
+  position:absolute;
+  z-index: -1; 
+  display: none;
+}
+body {
+  background:url(images/top/kusya.png);
+
+}
+
+#map{
+  position:absolute;
+  z-index: -1;
+  margin-left:80px;
+}
+
+svg#svg-template{
+  display:none;
+}
+
+svg.clickable{
+  width:1000px;
+  height:800px;
+  margin-left:80px;
+}
+svg.clickable use:hover {
+  opacity:0.9;
+  stroke:#757575;
+  stroke-width:5px;
+}
+.logo {
+  position:absolute;
+  z-index: -1;
+}
+
+#fin{
+  fill:#83D2D6;
+  }
+  #nor{
+  fill:#788BF9;
+  }
+  #swe{
+    fill:#D7E069;
+  }
+  #den1 {
+    fill:#EA7754;
+  }
+  #den2 {
+    fill:#EA7754;
+  }
+  #den3 {
+    fill:#EA7754;
+  }
+  #den4 {
+    fill:#EA7754;
+  }
